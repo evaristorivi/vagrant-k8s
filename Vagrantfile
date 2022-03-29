@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
         node.vm.provision "setup-dns", type: "shell", :path => "provision/00-update-dns.sh"
         node.vm.provision "all-nodes", type: "shell", :path => "provision/01-all_nodes.sh"
       end
-      config.vm.synced_folder ".\\resources", "/home/vagrant/resources"
+      config.vm.synced_folder "./resources", "/home/vagrant/resources"
   end
 
   # Provision Worker Nodes
