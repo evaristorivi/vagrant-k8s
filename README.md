@@ -5,8 +5,15 @@ Este laboratorio automatiza en gran parte y hace flexible la generación de un c
 ## Requisitos:
 
 VirtualBox
+```
+apt install virtualbox -y
+```
 
 Vagrant
+
+```
+apt install vagrant -y
+```
 
 Plugin de vagrant (para la imagen vagrant "focal64" de ubuntu, que no monta bien las carpetas compartidas)
 ```
