@@ -32,7 +32,7 @@ chmod +x ./resources/init-cluster/*
 ./resources/init-cluster/02-preflights.sh
 ./resources/init-cluster/03-network.sh
 ```
-Unimos los nodos (el comando lo tenemos en el fichero /home/vagrant/kubeadm-init.log)
+Unimos los nodos (ejecutamos en cada nodo con permisos de root el comando lo tenemos en el fichero de master: /home/vagrant/kubeadm-init.log)
 ```
 ./resources/init-cluster/04-label.sh
 ./resources/init-cluster/05-metrics-server.sh
